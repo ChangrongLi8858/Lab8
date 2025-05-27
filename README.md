@@ -1,8 +1,9 @@
 # Lab8-Starter
-Done by: 
-- Changrong Li
-Deployed GitHub Pages URL: 
+## Done by: 
+- Changrong Li            
+## Deployed GitHub Pages URL: 
+-
+## Short paragraph about graceful degradation and service workers:
 - 
-Short paragraph about graceful degradation and service workers:
-- 
-pwa.png:
+## pwa.png:
+![screenshot-pwa](pwa.png)
