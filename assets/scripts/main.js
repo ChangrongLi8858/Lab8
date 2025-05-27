@@ -50,10 +50,10 @@ async function init() {
       window.addEventListener('load', () => {
         navigator.serviceWorker.register('./sw.js')
           .then((registration) => {
-            console.log('✅ Service Worker registered with scope:', registration.scope);
+            console.log(' Service Worker registered with scope:', registration.scope);
           })
           .catch((error) => {
-            console.error('❌ Service Worker registration failed:', error);
+            console.error(' Service Worker registration failed:', error);
           });
       });
     }
@@ -95,7 +95,7 @@ async function getRecipes() {
   //            declared above
     try {
       for (const url of RECIPE_URLS) {
-        console.log('Fetching:', url); // 方便调试
+        console.log('Fetching:', url); 
       }
     } catch (err) {
       console.error(err);
